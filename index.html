@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trail Bikers</title>
+    <script src="./js/vendor/gsap.min.js" defer></script>
+    <script src="./js/vendor/ScrollTrigger.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <nav class="menu" aria-label="Navegação principal">
+            <div class="logo-container">
+                <a href="#home" class="link-brand">
+                     <img src="./assets/image/logo-Trail-Bikers.png" alt="Trail Bikers" class="img-logo">
+                </a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal" hidden>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+            <ul class="nav-list" id="menu-principal">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section id="home" class="hero-section" tabindex="-1">
+            <div class="linear-container">
+                <div class="texto-hero-container">
+                    <p class="hat-hero">SUA PRÓXIMA JORNADA COMEÇA AQUI.</p>
+                    <h1 class="titulo-hero">Domine as melhores trilhas. Viva a verdadeira experiência do Mountain Bike.</h1>
+                    <p class="text-description-hero">Roteiros inesquecíveis, equipamentos premium e guias especializados para você
+                        desafiar seus limites com segurança. Encontre a sua próxima aventura com a Trail Bikers.</p>
+                    <div class="button-container">
+                        <a href="#servicos" class="btn-cta">Escolher Minha Trilha</a>
+                        <a href="#servicos" class="btn-secondary">Conhecer Nossos Serviços</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="sobre" tabindex="-1">
+            <div class="linear-sobre-container">
+                <div class="text-sobre-container">
+                     <p class="hat-sobre">NOSSA ESSÊNCIA</p>
+                     <h2 class="titulo-sobre">A paixão pelo barro corre em
+                    nossas veias.</h2>
+                     <p class="text-sobre">
+                        A Trail Bikers nasceu da vontade de conectar pessoas à natureza
+                        através da adrenalina. Mais do que uma agência, somos uma comunidade de ciclistas
+                        apaixonados. Oferecemos infraestrutura completa, conhecimento técnico e respeito ao meio
+                        ambiente para que você se preocupe apenas em pedalar e curtir a paisagem.
+                     </p>
+                     <div class="button-sobre-container">
+                         <a href="#contato" class="btn-cta-sobre">Junte-se à Nossa Comunidade</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="servicos" tabindex="-1">
+            <div class="text-servicos-container">
+                <p class="hat-servicos">A EXPERIÊNCIA COMPLETA</p>
+                <h2 class="titulo-servicos">Tudo o que você precisa para o pedal perfeito</h2>
+                <p class="descricao-servicos">
+                    Soluções completas para iniciantes e atletas de alta performance.
+                </p>
+            </div>
+            <div class="card-container">
+                <div class="card-1">
+                    <div class="overlay">
+                        <h3 class="card-title">Trilhas Guiadas</h3>
+                        <p class="card-description">
+                            Descubra roteiros exclusivos na região com guias experientes.
+                            Opções para todos os níveis técnicos e de condicionamento físico.
+                            
+                        </p>
+                        <a href="#contato" class="href card-button">Agendar Trilha</a>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <div class="overlay">
+                        <h3 class="card-title">Aluguel de Bikes</h3>
+                        <p class="card-description">
+                            Frota de mountain bikes premium, com revisões diárias e ajuste
+                            ergonômico. Prontas para encarar qualquer terreno de forma segura.
+                            
+                        </p>
+                        <a href="#contato" class="href card-button">Reservar Equipamento</a>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <div class="overlay">
+                        <h3 class="card-title">Oficina Especializada</h3>
+                        <p class="card-description">
+                            Manutenção preventiva e corretiva com mecânicos certificados.
+                            Garantimos que a sua bicicleta nunca te deixe na mão no meio do caminho.
+                            
+                        </p>
+                        <a href="#contato" class="href card-button">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                <div class="card-4">
+                    <div class="overlay">
+                        <h3 class="card-title">Clínicas de Pilotagem</h3>
+                        <p class="card-description">
+                            Aprimore sua técnica com instrutores profissionais. Ganhe
+                            confiança para superar obstáculos, saltos e descidas íngremes.
+                            
+                        </p>
+                        <a href="#contato" class="href card-button">Ver Próximas Turmas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato" tabindex="-1">
+            <h2>Pronto para a próxima descida? Fale com a gente.</h2>
+            <p>Tem alguma dúvida sobre os roteiros, precisa de manutenção na sua bike ou quer montar um pacote personalizado para o seu grupo? Nossa equipe está pronta para ajudar.</p>
+        </section>
+        <footer class="rodape"></footer>
+    </main>
+</body>
+</html>
